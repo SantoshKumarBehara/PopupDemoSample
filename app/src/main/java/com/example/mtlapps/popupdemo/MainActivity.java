@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 //        InputMethodManager imm = (InputMethodManager)getSystemService(Context.
 //                INPUT_METHOD_SERVICE);
 //        imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
-
+        System.out.println("total Layout Height, Commit One More time ";
         if(isChecked) {
             floatingActionButton.setImageResource(R.drawable.info_mcb);
             // floatingActionButton.setBackgroundResource(R.drawable.info_mcb);
