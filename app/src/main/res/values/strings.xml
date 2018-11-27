@@ -1,0 +1,12 @@
+<!--<resources>-->
+    <!--<string name="app_name">PopupDemo</string>-->
+    <!--<string name="ScanDescText">"Scan receipts from your\npurchases at Mailbox"</string>-->
+    <!--<string name="EarnDescText">"Earn points for\nshopping in-store"</string>-->
+    <!--<string name="RedeemDescText">"Redeem unique rewards\n using your points"</string>-->
+<!--</resources>-->
+<resources>
+    <string name="app_name">PopupDemo</string>
+    <string name="ScanDescText">"Scan a Man"</string>
+    <string name="EarnDescText">"no pain no gain "</string>
+    <string name="RedeemDescText">"Not ready to dream"</string>
+</resources>

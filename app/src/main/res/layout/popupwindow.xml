@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:id="@+id/popupview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/scanViewID"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/scanImageViewID"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/scan_mcb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scanTextID"
+            android:text="1.SCAN"
+            android:textAlignment="center"
+            android:textStyle= "bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scanDescID"
+            android:text="@string/ScanDescText"
+            android:lines="2"
+            android:textAlignment="center"
+            android:textSize="8sp"
+            android:textColor="@android:color/black"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/earnViewID"
+
+        android:background="@android:color/transparent">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/earnImageViewID"
+            android:src="@drawable/earn_mcb"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earnTextID"
+            android:text="2.EARN"
+            android:textAlignment="center"
+            android:textStyle= "bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earnDescIDID"
+            android:text="@string/EarnDescText"
+            android:lines="2"
+            android:textAlignment="center"
+            android:textSize="8sp"
+            android:textColor="@android:color/black"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/redeemViewID"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/redeemImageViewID"
+            android:src="@drawable/redeem_mcb"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/redeemTextID"
+            android:text="3.REDEEM"
+            android:textAlignment="center"
+            android:textStyle= "bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/redeemDescID"
+            android:text="@string/RedeemDescText"
+            android:lines="2"
+            android:textAlignment="center"
+            android:textSize="8sp"
+            android:textColor="@android:color/black"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

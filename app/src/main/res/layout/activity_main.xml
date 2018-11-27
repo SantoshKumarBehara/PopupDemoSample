@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewA"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity">
+   <!-- <ImageButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/info_mcb"
+        android:background="@android:color/black"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@android:color/black"
+      />-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/info_mcb"
+        app:backgroundTint="@android:color/transparent"
+        app:borderWidth="0dp"
+        app:useCompatPadding="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+         />
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/popupview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CCFFFFFF">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/firstlayoutID"
+            android:layout_height="50dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:id="@+id/scanViewID"
+            android:background="@android:color/transparent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/scanImageViewID"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/scan_mcb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scanTextID"
+                android:text="1.SCAN"
+                android:textAlignment="center"
+                android:textStyle= "bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scanDescID"
+                android:text="@string/ScanDescText"
+                android:lines="2"
+                android:textAlignment="center"
+                android:textSize="8sp"
+                android:textColor="@android:color/black"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/secondlayoutID">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:id="@+id/earnViewID"
+
+            android:background="@android:color/transparent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/earnImageViewID"
+                android:src="@drawable/earn_mcb"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/earnTextID"
+                android:text="2.EARN"
+                android:textAlignment="center"
+                android:textStyle= "bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/earnDescIDID"
+                android:text="@string/EarnDescText"
+                android:lines="2"
+                android:textAlignment="center"
+                android:textSize="8sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/thirdlayoutID">
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:id="@+id/redeemViewID"
+            android:background="@android:color/transparent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/redeemImageViewID"
+                android:src="@drawable/redeem_mcb"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/redeemTextID"
+                android:text="3.REDEEM"
+                android:textAlignment="center"
+                android:textStyle= "bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/redeemDescID"
+                android:text="@string/RedeemDescText"
+                android:lines="2"
+                android:textAlignment="center"
+                android:textSize="8sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/fourthlayoutID">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
